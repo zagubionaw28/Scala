@@ -1,0 +1,117 @@
+2023.06.15 16:40:46 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12' for client Visual Studio Code 1.79.1.
+cze 15, 2023 4:40:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 15, 2023 4:40:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 15, 2023 4:40:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\.metals\metals (H2 2.1)
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.036s)
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+cze 15, 2023 4:40:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.148s)
+2023.06.15 16:40:47 INFO  time: initialize in 1.35s
+2023.06.15 16:40:53 WARN  Build server is not auto-connectable.
+2023.06.15 16:40:53 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\src\main\scala\fibo.scala
+2023.06.15 16:40:58 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\weron\AppData\Local\Temp\metals4390884538550679934\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.15 16:41:02 INFO  no build target found for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\src\main\scala\fibo.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.15 16:41:05 INFO  [info] welcome to sbt 1.9.0 (Oracle Corporation Java 17.0.6)
+2023.06.15 16:41:11 INFO  user cancelled sbt bloopInstall
+2023.06.15 16:41:11 INFO  time: ran 'sbt bloopInstall' in 12s
+2023.06.15 16:41:12 INFO  time: code lens generation in 18s
+2023.06.15 16:41:14 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\weron\AppData\Local\Temp\metals917441359020039069\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.15 16:41:17 INFO  [info] welcome to sbt 1.9.0 (Oracle Corporation Java 17.0.6)
+2023.06.15 16:41:22 INFO  [info] loading settings for project lab-12-build-build-build from metals.sbt ...
+2023.06.15 16:41:24 INFO  [info] loading project definition from C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\project\project\project
+2023.06.15 16:41:29 INFO  [info] loading settings for project lab-12-build-build from metals.sbt ...
+2023.06.15 16:41:29 INFO  [info] loading project definition from C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\project\project
+2023.06.15 16:41:37 INFO  [success] Generated .bloop\lab-12-build-build.json
+2023.06.15 16:41:37 INFO  [success] Total time: 9 s, completed 15 cze 2023, 16:41:38
+2023.06.15 16:41:40 INFO  [info] loading settings for project lab-12-build from metals.sbt,plugins.sbt ...
+2023.06.15 16:41:40 INFO  [info] loading project definition from C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\project
+2023.06.15 16:41:45 INFO  [success] Generated .bloop\lab-12-build.json
+2023.06.15 16:41:45 INFO  [success] Total time: 5 s, completed 15 cze 2023, 16:41:45
+2023.06.15 16:41:48 INFO  [info] loading settings for project lab-12 from build.sbt ...
+2023.06.15 16:41:48 INFO  [info] set current project to lab.12 (in build file:/C:/Users/weron/OneDrive/Pulpit/scala-repo/niezorawska-weronika/Akka/lab.12/)
+2023.06.15 16:41:52 INFO  [success] Generated .bloop\lab-12.json
+2023.06.15 16:41:52 INFO  [success] Generated .bloop\lab-12-test.json
+2023.06.15 16:41:52 INFO  [success] Total time: 3 s, completed 15 cze 2023, 16:41:52
+2023.06.15 16:41:52 INFO  time: ran 'sbt bloopInstall' in 38s
+2023.06.15 16:41:52 INFO  Attempting to connect to the build server...
+2023.06.15 16:41:52 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.15 16:41:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.15 16:41:57 INFO  Attempting to connect to the build server...
+2023.06.15 16:41:57 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.15 16:41:57 INFO  Attempting to connect to the build server...
+2023.06.15 16:41:57 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.15 16:41:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\project\project\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.15 16:41:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\project\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.15 16:42:00 INFO  time: Connected to build server in 8.16s
+2023.06.15 16:42:00 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.15 16:42:01 INFO  time: Imported build in 0.2s
+cze 15, 2023 4:42:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2023.06.15 16:42:16 INFO  time: indexed workspace in 15s
+2023.06.15 16:42:18 INFO  compiling lab-12 (2 scala sources)
+2023.06.15 16:42:28 INFO  time: compiled lab-12 in 10s
+2023.06.15 16:43:53 INFO  compiling lab-12 (2 scala sources)
+2023.06.15 16:43:56 INFO  time: compiled lab-12 in 3.42s
+2023.06.15 16:45:57 INFO  compiling lab-12 (2 scala sources)
+cze 15, 2023 4:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+cze 15, 2023 4:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 297
+2023.06.15 16:45:59 INFO  time: compiled lab-12 in 1.44s
+2023.06.15 16:46:02 INFO  compiling lab-12 (2 scala sources)
+2023.06.15 16:46:11 INFO  time: compiled lab-12 in 9.06s
+cze 15, 2023 4:46:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 344
+2023.06.15 16:47:49 INFO  compiling lab-12 (2 scala sources)
+2023.06.15 16:47:49 INFO  time: compiled lab-12 in 0.73s
+2023.06.15 16:48:08 INFO  compiling lab-12 (2 scala sources)
+2023.06.15 16:48:14 INFO  time: compiled lab-12 in 6.17s
+2023.06.15 16:52:42 INFO  compiling lab-12 (1 scala source)
+2023.06.15 16:52:42 INFO  time: compiled lab-12 in 0.28s
+cze 15, 2023 4:54:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1052
+2023.06.15 16:57:08 INFO  compiling lab-12 (1 scala source)
+2023.06.15 16:57:09 INFO  time: compiled lab-12 in 1.12s
+2023.06.15 16:59:16 INFO  compiling lab-12 (1 scala source)
+2023.06.15 16:59:16 INFO  time: compiled lab-12 in 0.75s
+2023.06.15 17:00:59 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:00:59 INFO  time: compiled lab-12 in 0.9s
+2023.06.15 17:03:26 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:03:26 INFO  time: compiled lab-12 in 0.94s
+2023.06.15 17:04:04 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:04:04 INFO  time: compiled lab-12 in 0.85s
+cze 15, 2023 5:05:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1898
+2023.06.15 17:10:57 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:10:57 INFO  time: compiled lab-12 in 0.92s
+2023.06.15 17:13:49 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:13:50 INFO  time: compiled lab-12 in 1.49s
+2023.06.15 17:14:13 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:14:13 INFO  time: compiled lab-12 in 0.74s
+2023.06.15 17:14:50 INFO  compiling lab-12 (1 scala source)
+2023.06.15 17:14:50 INFO  time: compiled lab-12 in 0.72s
+2023.06.15 17:15:44 INFO  Shutting down server
+2023.06.15 17:15:44 INFO  shutting down Metals
+2023.06.15 17:15:44 INFO  Shut down connection with build server.
+2023.06.15 17:15:44 INFO  Shut down connection with build server.
+2023.06.15 17:15:44 INFO  Shut down connection with build server.
+2023.06.15 17:15:44 INFO  Exiting server

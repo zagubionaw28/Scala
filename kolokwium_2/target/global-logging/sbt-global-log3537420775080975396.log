@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(bc04942c-ded3-40c2-8813-d5ff2d8a0f16), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\target\scala-3.3.0\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mApplication [0m[1mkolokwium_2[0m[33m not yet started[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStarting application [0m[34mkolokwium_2[0m[33m in the background ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed 25 cze 2023, 21:21:53[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

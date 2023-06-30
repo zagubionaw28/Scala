@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(0c542961-59f5-4655-b9da-b3c3fbaae1ff), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.11\hello-akka\target\scala-3.3.0\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 16 cze 2023, 00:20:42[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-7ccd4079bb1ce497fc27. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-7ccd4079bb1ce497fc27_lock, error 5[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

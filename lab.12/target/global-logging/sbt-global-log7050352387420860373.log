@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(5466629f-3a27-4ea0-9c54-66af087c466e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\target\scala-3.3.0\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mmultiple main classes detected: run 'show discoveredMainClasses' to see the list[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStopping application [0m[36mlab-12[0m[33m (by killing the forked JVM) ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStarting application [0m[33mlab-12[0m[33m in the background ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 14 cze 2023, 12:20:07[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

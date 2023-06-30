@@ -1,0 +1,148 @@
+2023.06.25 20:48:47 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2' for client Visual Studio Code 1.79.2.
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\.metals\metals (H2 2.1)
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+cze 25, 2023 8:48:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.050s)
+2023.06.25 20:48:48 INFO  time: initialize in 0.51s
+2023.06.25 20:48:49 WARN  Build server is not auto-connectable.
+2023.06.25 20:48:50 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Szef.scala
+2023.06.25 20:48:53 INFO  no build target found for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Szef.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 20:48:53 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 20:48:54 INFO  time: code lens generation in 3.91s
+2023.06.25 20:48:54 INFO  time: code lens generation in 1.54s
+2023.06.25 20:49:13 WARN  Build server is not auto-connectable.
+2023.06.25 20:49:21 INFO  running 'C:\Program Files\Java\jdk-17\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\weron\AppData\Local\Temp\metals5524009570687007648\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.25 20:49:22 INFO  [info] welcome to sbt 1.9.0 (Oracle Corporation Java 17.0.6)
+2023.06.25 20:49:24 INFO  [info] loading settings for project kolokwium_2-build-build-build from metals.sbt ...
+2023.06.25 20:49:24 INFO  [info] loading project definition from C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project\project\project
+2023.06.25 20:49:27 INFO  [info] loading settings for project kolokwium_2-build-build from metals.sbt ...
+2023.06.25 20:49:27 INFO  [info] loading project definition from C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project\project
+2023.06.25 20:49:29 INFO  [success] Generated .bloop\kolokwium_2-build-build.json
+2023.06.25 20:49:29 INFO  [success] Total time: 2 s, completed 25 cze 2023, 20:49:29
+2023.06.25 20:49:30 INFO  [info] loading settings for project kolokwium_2-build from metals.sbt,plugins.sbt ...
+2023.06.25 20:49:30 INFO  [info] loading project definition from C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project
+2023.06.25 20:49:32 INFO  [success] Generated .bloop\kolokwium_2-build.json
+2023.06.25 20:49:32 INFO  [success] Total time: 2 s, completed 25 cze 2023, 20:49:32
+2023.06.25 20:49:33 INFO  [info] loading settings for project kolokwium_2 from build.sbt ...
+2023.06.25 20:49:33 INFO  [info] set current project to kolokwium_2 (in build file:/C:/Users/weron/OneDrive/Pulpit/scala-repo/niezorawska-weronika/Akka/kolokwium_2/)
+2023.06.25 20:49:33 INFO  [success] Generated .bloop\kolokwium_2-test.json
+2023.06.25 20:49:33 INFO  [success] Generated .bloop\kolokwium_2.json
+2023.06.25 20:49:33 INFO  [success] Total time: 1 s, completed 25 cze 2023, 20:49:34
+2023.06.25 20:49:34 INFO  time: ran 'sbt bloopInstall' in 13s
+2023.06.25 20:49:34 INFO  Attempting to connect to the build server...
+2023.06.25 20:49:34 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 20:49:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 20:49:34 INFO  Attempting to connect to the build server...
+2023.06.25 20:49:34 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 20:49:34 INFO  Attempting to connect to the build server...
+2023.06.25 20:49:34 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 20:49:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 20:49:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project\project\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 20:49:34 INFO  time: Connected to build server in 0.18s
+2023.06.25 20:49:34 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 20:49:39 INFO  time: indexed workspace in 4.29s
+2023.06.25 20:49:39 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 20:49:41 INFO  time: compiled kolokwium_2 in 2.23s
+2023.06.25 20:50:49 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 20:50:49 INFO  time: compiled kolokwium_2 in 0.35s
+2023.06.25 20:50:56 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 20:50:56 INFO  time: compiled kolokwium_2 in 0.52s
+2023.06.25 20:52:24 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 20:52:24 INFO  time: compiled kolokwium_2 in 98ms
+2023.06.25 20:52:26 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 20:52:26 INFO  time: compiled kolokwium_2 in 0.29s
+2023.06.25 20:52:51 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 20:52:51 INFO  time: compiled kolokwium_2 in 0.31s
+2023.06.25 20:55:41 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 20:55:41 INFO  time: compiled kolokwium_2 in 0.18s
+2023.06.25 21:08:50 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 21:08:50 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 21:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 21:08:50 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 21:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 21:08:50 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 21:08:50 INFO  Bloop uses C:\Program Files\Java\jdk-17 defined at C:\Users\weron\.bloop\bloop.json
+2023.06.25 21:08:50 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 21:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project\project\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 21:08:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\project\.metals\bsp.trace.json or C:\Users\weron\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 21:08:51 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:08:51 INFO  time: compiled kolokwium_2 in 0.2s
+2023.06.25 21:08:50 INFO  time: Imported build in 0.29s
+2023.06.25 21:08:51 INFO  time: Imported build in 0.28s
+2023.06.25 21:08:53 INFO  time: indexed workspace in 1.95s
+2023.06.25 21:08:53 INFO  time: indexed workspace in 1.96s
+cze 25, 2023 9:13:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 955
+2023.06.25 21:13:12 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:13:12 INFO  time: compiled kolokwium_2 in 0.15s
+2023.06.25 21:13:31 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:13:31 INFO  time: compiled kolokwium_2 in 0.2s
+2023.06.25 21:13:35 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:13:35 INFO  time: compiled kolokwium_2 in 0.17s
+2023.06.25 21:20:39 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:20:39 INFO  time: compiled kolokwium_2 in 0.22s
+2023.06.25 21:21:16 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:21:16 INFO  time: compiled kolokwium_2 in 1s
+2023.06.25 21:21:38 INFO  compiling kolokwium_2 (3 scala sources)
+2023.06.25 21:21:38 INFO  time: compiled kolokwium_2 in 0.44s
+2023.06.25 21:21:43 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\zadanie.scala
+2023.06.25 21:21:43 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:21:43 INFO  time: compiled kolokwium_2 in 0.17s
+2023.06.25 21:22:17 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:22:17 INFO  time: compiled kolokwium_2 in 0.8s
+2023.06.25 21:22:19 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:22:34 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:22:37 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:22:38 INFO  compiling kolokwium_2 (1 scala source)
+2023.06.25 21:22:38 INFO  time: compiled kolokwium_2 in 0.59s
+2023.06.25 21:22:39 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:22:48 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:23:05 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:23:24 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:23:25 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:23:42 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:24:14 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:24:48 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:24:49 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:24:56 WARN  Could not load snapshot text for C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\src\main\scala\Pracownik.scala
+2023.06.25 21:25:38 INFO  Shutting down server
+2023.06.25 21:25:38 INFO  shutting down Metals
+2023.06.25 21:25:38 INFO  Shut down connection with build server.
+2023.06.25 21:25:38 INFO  Shut down connection with build server.
+2023.06.25 21:25:38 INFO  Shut down connection with build server.
+2023.06.25 21:25:38 INFO  Exiting server
+2023.06.25 21:25:38 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+

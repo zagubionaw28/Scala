@@ -1,0 +1,38 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.11\hello-akka\src\main\scala\zad_04b.scala:12:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m        context.become(rzucaj(listaGraczy, randomowyInniNiżSelf))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              Found:    [1m[31m([0mList[akka.actor.ActorRef][1m[31m,[0m[1m[31m [0m[1m[31makka[0m[1m[31m.[0m[1m[31mactor[0m[1m[31m.[0m[1m[31mActorRef[0m[1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              Required: List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Tree:    12|Tuple2.apply[[35mList[akka.actor.ActorRef][0m, [35makka.actor.ActorRef[0m](listaGraczy,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    12|  randomowyInniNiżSelf)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m I tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   (List[akka.actor.ActorRef], akka.actor.ActorRef)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m conforms to[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m but the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   ==> (List[akka.actor.ActorRef], akka.actor.ActorRef)  <:  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   <== (List[akka.actor.ActorRef], akka.actor.ActorRef)  <:  List[akka.actor.ActorRef] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mTree:    12|Tuple2.apply[[35mList[akka.actor.ActorRef][0m, [35makka.actor.ActorRef[0m](listaGraczy,[0m
+[0m[[0m[31merror[0m] [0m[0m   12|  randomowyInniNiżSelf)[0m
+[0m[[0m[31merror[0m] [0m[0mI tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m  (List[akka.actor.ActorRef], akka.actor.ActorRef)[0m
+[0m[[0m[31merror[0m] [0m[0mconforms to[0m
+[0m[[0m[31merror[0m] [0m[0m  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0mbut the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  ==> (List[akka.actor.ActorRef], akka.actor.ActorRef)  <:  List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0m  <== (List[akka.actor.ActorRef], akka.actor.ActorRef)  <:  List[akka.actor.ActorRef] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,9 @@
+1686918880964:run
+1686919060490:reStart
+1686919715393:reStop
+1686919798867:reStart
+1686919802002:reStop
+1686919840508:reStart
+1686922486122:val pracownik = context.actorOf(Props[Pracownik](), s"pracownik${ilość}")
+1686922497090:Start
+1686922506514:reStart

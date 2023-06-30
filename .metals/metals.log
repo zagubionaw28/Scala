@@ -1,0 +1,61 @@
+2023.06.30 15:11:35 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala' for client Visual Studio Code 1.79.2.
+cze 30, 2023 3:11:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+cze 30, 2023 3:11:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+cze 30, 2023 3:11:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+cze 30, 2023 3:11:35 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\.metals\metals (H2 2.1)
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.020s)
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+cze 30, 2023 3:11:36 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.107s)
+2023.06.30 15:11:36 INFO  time: initialize in 0.78s
+cze 30, 2023 3:11:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.06.30 15:11:39 WARN  Build server is not auto-connectable.
+2023.06.30 15:11:39 WARN  no build tool detected in workspace 'C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.30 15:11:39 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\zawody.scala
+2023.06.30 15:11:42 INFO  no build target found for C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\zawody.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.30 15:11:43 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Organizator.scala
+cze 30, 2023 3:11:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2023.06.30 15:11:43 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Ocena.scala
+cze 30, 2023 3:11:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2023.06.30 15:11:43 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Grupa.scala
+2023.06.30 15:11:43 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Organizator.scala
+2023.06.30 15:11:45 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Osoba.scala
+2023.06.30 15:11:45 INFO  time: code lens generation in 6.85s
+2023.06.30 15:11:46 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Utl.scala
+2023.06.30 15:11:46 INFO  time: code lens generation in 2.83s
+2023.06.30 15:11:47 INFO  time: code lens generation in 3.41s
+2023.06.30 15:11:47 INFO  time: code lens generation in 3.59s
+2023.06.30 15:11:47 INFO  time: code lens generation in 3.69s
+2023.06.30 15:11:47 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Osoba.scala
+2023.06.30 15:11:47 INFO  time: code lens generation in 1.12s
+2023.06.30 15:11:53 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Organizator.scala
+2023.06.30 15:11:54 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Osoba.scala
+2023.06.30 15:11:59 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Utl.scala
+2023.06.30 15:12:02 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Osoba.scala
+2023.06.30 15:12:05 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Utl.scala
+2023.06.30 15:12:07 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Zawodnik.scala
+2023.06.30 15:12:13 WARN  no build target for: C:\Users\weron\OneDrive\Pulpit\REPOPRACA\Scala\lab13\laboratorium_13\src\main\scala\model\Osoba.scala
+2023.06.30 15:12:15 INFO  Shutting down server
+2023.06.30 15:12:15 INFO  shutting down Metals
+2023.06.30 15:12:15 INFO  Exiting server

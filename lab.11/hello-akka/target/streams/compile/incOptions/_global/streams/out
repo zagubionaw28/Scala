@@ -1,0 +1,53 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.11\hello-akka\target\scala-3.3.0\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Graj04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gracz04b$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad_04b$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.11\hello-akka\target\scala-3.3.0\classes.bak[0m

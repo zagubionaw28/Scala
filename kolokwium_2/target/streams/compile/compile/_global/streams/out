@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\kolokwium_2\src\main\scala\Pracownik.scala:15:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m      context.become(zapamiętuje(słowo.head.toSring, słowo, [31m1[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                 ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     value toSring is not a member of Char - did you mean Char.toString?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

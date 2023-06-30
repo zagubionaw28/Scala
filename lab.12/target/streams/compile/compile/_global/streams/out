@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\lab.12\src\main\scala\fibo.scala:14:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m      [33mval[0m [36mnadzorca[0m = context.actorOf(Props(Nadzorca), [31m"nadzorca"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNone of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mProps[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (clazz: Class[?], args: Any*): akka.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m [T <: akka.actor.Actor][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (creator: => T)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    ([33mimplicit [0mevidence$2: reflect.ClassTag[T]): akka.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m [T <: akka.actor.Actor][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  ()([33mimplicit [0mevidence$1: reflect.ClassTag[T²]): akka.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (deploy: akka.actor.Deploy, clazz: Class[?], args: Seq[Any]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  akka.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmatch arguments (fibo.Nadzorca.type)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mwhere:    T  is a type variable with constraint <: akka.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          T² is a type variable with constraint <: akka.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

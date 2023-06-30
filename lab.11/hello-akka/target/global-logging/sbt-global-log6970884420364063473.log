@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStop, Some(1646fe10-a22b-4839-8827-48e62adb820d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStop[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStopping application [0m[32mhello-akka[0m[33m (by killing the forked JVM) ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 14 cze 2023, 09:31:36[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

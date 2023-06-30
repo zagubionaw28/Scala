@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStop, Some(291366fe-a653-442f-95a5-7617699f3c73), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStop[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStopping application [0m[32mlaboratorium_14[0m[33m (by killing the forked JVM) ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 16 cze 2023, 00:41:57[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-42fb270502fa94eba70a. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-42fb270502fa94eba70a_lock, error 5[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

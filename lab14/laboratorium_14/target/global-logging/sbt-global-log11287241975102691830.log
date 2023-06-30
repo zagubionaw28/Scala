@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(6bf2c1da-d432-4966-87d9-e084c37a57d3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStopping application [0m[35mlaboratorium_14[0m[33m (by killing the forked JVM) ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mStarting application [0m[36mlaboratorium_14[0m[33m in the background ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 15 cze 2023, 10:47:51[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

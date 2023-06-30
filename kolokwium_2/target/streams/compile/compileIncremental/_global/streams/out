@@ -1,0 +1,45 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 19 products, 3 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Pracownik.scala, ${BASE}/src/main/scala/Szef.scala, ${BASE}/src/main/scala/zadanie.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Pracownik.scala, ${BASE}/src/main/scala/zadanie.scala, ${BASE}/src/main/scala/Szef.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Pracownik.scala, ${BASE}/src/main/scala/zadanie.scala, ${BASE}/src/main/scala/Szef.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(kolokwium_2.main, kolokwium_2.W, kolokwium_2.Szef, kolokwium_2.DoPracownika, kolokwium_2.I, kolokwium_2.Zapamiętaj, kolokwium_2.Pracownik, kolokwium_2.zadanie$package, kolokwium_2.DoSzefa, kolokwium_2.Wstaw, kolokwium_2.Ile)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 3 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: kolokwium_2.main, kolokwium_2.W, kolokwium_2.Szef, kolokwium_2.DoPracownika, kolokwium_2.I, kolokwium_2.Zapamiętaj, kolokwium_2.Pracownik, kolokwium_2.zadanie$package, kolokwium_2.DoSzefa, kolokwium_2.Wstaw, kolokwium_2.Ile[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding kolokwium_2.Zapamiętaj by kolokwium_2.DoPracownika[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding kolokwium_2.Wstaw by kolokwium_2.DoPracownika[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding kolokwium_2.Ile by kolokwium_2.DoSzefa[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\target\scala-3.3.0\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.3.0\scala3-sbt-bridge-3.3.0.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 54c0d1f for Scala Compiler version 3.3.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-explain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-print-lines[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfatal-warnings[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xmigration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-source:3.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utf8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.0\scala3-library_3-3.3.0.jar;C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\weron\OneDrive\Pulpit\scala-repo\niezorawska-weronika\Akka\kolokwium_2\target\scala-3.3.0\classes;C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_3\2.6.20\akka-actor_3-2.6.20.jar;C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_3\2.6.20\akka-slf4j_3-2.6.20.jar;C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_3\1.0.0\scala-java8-compat_3-1.0.0.jar;C:\Users\weron\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.9258991 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
